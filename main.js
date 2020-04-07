@@ -8,7 +8,7 @@ cheapestTicket = document.getElementById('cheapest-ticket'),
 otherCheapTickets = document.getElementById('other-cheap-tickets');
 
 //данные
-const citiesApi = 'https://api.travelpayouts.com/data/ru/cities.json',
+const citiesApi = 'http://api.travelpayouts.com/data/ru/cities.json',
 proxy = 'https://cors-anywhere.herokuapp.com/',
 apiKey = '8161ddc0a9453db4e6af964f8379c47f',
 calendar = 'http://min-prices.aviasales.ru/calendar_preload',
@@ -93,7 +93,7 @@ const getChanges = (num) =>{
 };
 
 const getLinkAviasales = (data) =>{
-	let link = 'http://www.aviasales.ru/search/';
+	let link = 'https://www.aviasales.ru/search/';
 	link += data.origin
 
 	const date = new Date(data.depart_date);
