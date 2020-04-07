@@ -93,7 +93,7 @@ const getChanges = (num) =>{
 };
 
 const getLinkAviasales = (data) =>{
-	let link = 'https://www.aviasales.ru/search/';
+	let link = 'http://www.aviasales.ru/search/';
 	link += data.origin
 
 	const date = new Date(data.depart_date);
