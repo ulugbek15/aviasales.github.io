@@ -11,7 +11,7 @@ otherCheapTickets = document.getElementById('other-cheap-tickets');
 const citiesApi = 'http://api.travelpayouts.com/data/ru/cities.json',
 proxy = 'https://cors-anywhere.herokuapp.com/',
 apiKey = '8161ddc0a9453db4e6af964f8379c47f',
-calendar = 'https://min-prices.aviasales.ru/calendar_preload',
+calendar = 'http://min-prices.aviasales.ru/calendar_preload',
 MAX_COUNT = 10;
 
 
