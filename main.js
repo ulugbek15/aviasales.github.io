@@ -8,10 +8,10 @@ cheapestTicket = document.getElementById('cheapest-ticket'),
 otherCheapTickets = document.getElementById('other-cheap-tickets');
 
 //данные
-const citiesApi = 'http://api.travelpayouts.com/data/ru/cities.json',
+const citiesApi = 'https://api.travelpayouts.com/data/ru/cities.json',
 proxy = 'https://cors-anywhere.herokuapp.com/',
 apiKey = '8161ddc0a9453db4e6af964f8379c47f',
-calendar = 'http://min-prices.aviasales.ru/calendar_preload',
+calendar = 'https://min-prices.aviasales.ru/calendar_preload',
 MAX_COUNT = 10;
 
 
